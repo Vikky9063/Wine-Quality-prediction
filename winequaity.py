@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[2]:
-
-
-# Import necessary libraries
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -27,19 +21,12 @@ quality = model.predict(new_data)
 print("Quality is (0-10):", quality[0])
 
 
-# In[3]:
-
-
 print(data.head())
 
-
-# In[4]:
 
 
 print(data.tail())
 
-
-# In[5]:
 
 
 import matplotlib.pyplot as plt
@@ -55,12 +42,10 @@ plt.title('Wine Quality Distribution')
 plt.show()
 
 
-# In[6]:
 
 
 import matplotlib.pyplot as plt
 
-# Example data
 categories = ['Category A', 'Category B', 'Category C']
 values = [10, 15, 7]
 
@@ -71,7 +56,6 @@ plt.title('Bar Chart Example')
 plt.show()
 
 
-# In[7]:
 
 
 import matplotlib.pyplot as plt
@@ -84,7 +68,6 @@ plt.title('Quality Histogram')
 plt.show()
 
 
-# In[ ]:
 
 
 
