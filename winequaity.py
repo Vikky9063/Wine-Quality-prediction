@@ -60,8 +60,8 @@ plt.show()
 
 import matplotlib.pyplot as plt
 
-# Assuming you have a dataset you want to plot as a histogram
-plt.hist(data['quality'], bins=11, edgecolor='k')  # 11 bins for quality values from 0 to 10
+
+plt.hist(data['quality'], bins=11, edgecolor='k') 
 plt.xlabel('Quality')
 plt.ylabel('Count')
 plt.title('Quality Histogram')
